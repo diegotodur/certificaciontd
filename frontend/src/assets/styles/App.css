@@ -1,0 +1,60 @@
+.filter-container {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .filter-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    height: 150px;
+  
+  }
+  
+  .filter-item {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .filter-item-input {
+      height: 70px;
+  }
+  
+  .table {
+      width: 1000px;
+  }
+  
+  .form-select {
+      height: 3000px;
+  }
+  
+  .form-button {
+      display: flex;
+      place-content: center;
+  }
+  
+  .nav {
+      display: flex;
+      place-content: center;
+  }
+  
+  .login-page {
+      background-color: darkgrey;
+  }
+  
+  .login-form {
+      height: 100vh;
+      display: grid;
+      grid-auto-rows: auto;
+      align-content: center;
+      justify-content: space-evenly;
+  }
+  
+  .register-form {
+      height: 100vh;
+      display: grid;
+      grid-auto-rows: auto;
+      align-content: center;
+      justify-content: space-evenly;
+  }
